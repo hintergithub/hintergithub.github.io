@@ -38,7 +38,36 @@
       <div id="w-node-_7c316f6e-f095-2d03-0a0a-57c5a88cf0dd-5227fc3c" class="grid-03">
         <div id="w-node-c6897ff0-f142-1a71-4092-2e333bbd7281-5227fc3c" class="contact-container"><a href="https://www.instagram.com/fabrikberlin/" target="_blank"><img src="images/instagram.svg" loading="lazy" style="opacity:0" height="50" data-w-id="4d54e23d-53cb-7876-fcb3-bc699687f14c" alt="Instagram" class="ig"></a><a href="mailto:fabrik030@gmail.com"><img src="images/email.svg" loading="lazy" style="opacity:0" height="50" id="w-node-_747d220c-5701-e758-625a-1840d8f6d0b6-5227fc3c" data-w-id="747d220c-5701-e758-625a-1840d8f6d0b6" alt="E-Mail" class="mail"></a></div>
       </div>
-      <div id="w-node-_453b8562-9e0a-f17f-93d8-035509a9ee6f-5227fc3c" class="grid-04"></div>
+      <div id="w-node-_453b8562-9e0a-f17f-93d8-035509a9ee6f-5227fc3c" class="grid-04">
+	    
+	      <form action="contact.php" method="post">
+  <div class="elem-group">
+    <input type="text" id="first-name" name="first_name" placeholder="first name" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="department-selection">Choose Concerned Department</label>
+    <select id="department-selection" name="concerned_department" required>
+        <option value="">Select a Department</option>
+        <option value="billing">Billing</option>
+        <option value="marketing">Marketing</option>
+        <option value="technical support">Technical Support</option>
+    </select>
+  </div>
+  <div class="elem-group">
+    <label for="title">Reason For Contacting Us</label>
+    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
+  </div>
+  <div class="elem-group">
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+	    
+	    </div>
       <div id="w-node-c6bd4af0-5de7-bb72-fec9-e95a8c67c3a3-5227fc3c" class="grid-05">
         <div class="h1-container">
           <h1 data-w-id="49756f2c-130a-48e2-9def-15105fd7eeeb" style="opacity:0" class="h1">fabrik</h1>
