@@ -114,6 +114,34 @@
 			  <a href="https://www.instagram.com/maya.amoi" target="_blank">@maya.amoi</a><br>
 			  <a href="https://www.instagram.com/egobaby.333" target="_blank">@egobaby.333</a></p>
         </div>
+	      
+	      <form action="contact.php" method="post">
+  <div class="elem-group">
+    <input type="text" id="first-name" name="first_name" placeholder="first name" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="department-selection">Choose Concerned Department</label>
+    <select id="department-selection" name="concerned_department" required>
+        <option value="">Select a Department</option>
+        <option value="billing">Billing</option>
+        <option value="marketing">Marketing</option>
+        <option value="technical support">Technical Support</option>
+    </select>
+  </div>
+  <div class="elem-group">
+    <label for="title">Reason For Contacting Us</label>
+    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
+  </div>
+  <div class="elem-group">
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+	      
       </div>
       <div id="w-node-b06a28db-7d2c-f74d-3100-7eb0d457426f-5227fc3c" class="grid-15">
         <div data-delay="4000" data-animation="slide" class="slider-desktop w-slider" data-autoplay="false" data-easing="ease" style="opacity:0" data-hide-arrows="false" data-disable-swipe="false" data-w-id="76d00a39-0df3-5ff5-ac61-5853b17e1242" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
@@ -162,35 +190,7 @@
       <div id="w-node-_1e0596e1-0d43-b7bf-833e-ecec1da8f009-5227fc3c" class="grid-22">
         <div class="h3-container-above-line">
           <h3 class="h3" id="sp-04">join us</h3>
-        </div>
-	      
-	      <form action="contact.php" method="post">
-  <div class="elem-group">
-    <input type="text" id="first-name" name="first_name" placeholder="first name" pattern=[A-Z\sa-z]{3,20} required>
-  </div>
-
-    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-  </div>
-  <div class="elem-group">
-    <label for="department-selection">Choose Concerned Department</label>
-    <select id="department-selection" name="concerned_department" required>
-        <option value="">Select a Department</option>
-        <option value="billing">Billing</option>
-        <option value="marketing">Marketing</option>
-        <option value="technical support">Technical Support</option>
-    </select>
-  </div>
-  <div class="elem-group">
-    <label for="title">Reason For Contacting Us</label>
-    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
-  </div>
-  <div class="elem-group">
-    <label for="message">Write your message</label>
-    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
-  </div>
-  <button type="submit">Send Message</button>
-</form>
-	    
+	</div>   
         <div class="textblock-sec-4">
           <div data-w-id="7f39e431-99ec-88b1-9f2a-52cad3d72165" style="opacity:0" class="h4-caps-align-center">Are you an artist?<br>Become part of our team!</div>
           <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque est sed arcu aliquet, eget auctor leo tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id elit sit amet tellus dictum dapibus vitae non erat.</p>
