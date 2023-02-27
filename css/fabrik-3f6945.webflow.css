@@ -960,13 +960,11 @@ p a:hover{
 }
 
 .slide-1 {
-  background-color: #317188;
   background-image: url('../images/f-01.jpg');
   background-size: cover;
 }
 
 .slide-2 {
-  background-color: #864444;
   background-image: url('../images/f-02.jpg');
   background-size: cover;
 }
