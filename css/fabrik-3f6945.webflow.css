@@ -3,6 +3,10 @@
   display: grid;
 }
 
+body{
+	overflow-x: hidden
+}
+
 .grid-container {
   position: relative;
   display: block;
@@ -823,6 +827,7 @@ p a:hover{
   cursor: pointer;
 	color: #333;
 }
+
 .footer-text-right:hover {
 	color: red;
 }
